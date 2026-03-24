@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>經典菜單 - 友怡盒餐｜台北南港在地便當・EST. 1990</title>
+  <meta name="description" content="友怡盒餐經典菜單，每日六款精心配菜，主食搭配豐富主食，讓您午餐不踩雷。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background: var(--dark);">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar" style="background: rgba(26,18,8,0.95);">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <rect x="3" y="8" width="18" height="13" rx="2"/>
+            <path d="M8 8V5a4 4 0 018 0v3"/>
+            <line x1="12" y1="12" x2="12" y2="17"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">友怡盒餐</span>
+          <span class="brand-est">EST. 1990</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html" class="nav-link">品牌故事</a></li>
+        <li><a href="services.html" class="nav-link">服務項目</a></li>
+        <li><a href="menu.html" class="nav-link" style="color:var(--orange-light);">經典菜單</a></li>
+        <li><a href="contact.html" class="nav-link">聯絡外送</a></li>
+      </ul>
+      <a href="tel:+886227830129" class="btn-call" id="btnCall">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+        </svg>
+        立即撥打
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- INNER HERO -->
+  <section class="inner-hero">
+    <h1 class="inner-title">經典菜單</h1>
+    <div class="breadcrumb">
+      <a href="index.html">首頁</a><span>/</span>經典菜單
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu" id="menu" style="padding-top: 40px;">
+    <div class="section-container">
+      <div class="section-header light">
+        <div class="section-tag light">經典主菜</div>
+        <h2 class="section-title light">豐富主食・每日精選</h2>
+        <p class="section-sub light">宮保雞丁、京醬肉絲、玫瑰雞等深受喜愛，配菜 6 種每日不同</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="images/menu.png" alt="精選主菜" />
+          </div>
+          <div class="menu-info">
+            <div class="menu-tag">招牌主菜</div>
+            <h3>京醬肉絲飯</h3>
+            <p>精選豬里肌切絲拌炒，搭配六道每日更換配菜，鮮嫩入味</p>
+            <div class="menu-price">NT$ 120</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="images/hero.png" alt="精緻盒餐" />
+          </div>
+          <div class="menu-info">
+            <div class="menu-tag">人氣第一</div>
+            <h3>香酥雞腿飯</h3>
+            <p>香酥金黃雞腿，皮脆肉嫩多汁，搭配六道精選配菜上桌</p>
+            <div class="menu-price">NT$ 130</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="images/home.png" alt="家常菜色" />
+          </div>
+          <div class="menu-info">
+            <div class="menu-tag">家常風味</div>
+            <h3>酥炸排骨飯</h3>
+            <p>嚴選豬排醃製入味，酥炸鎖住肉汁，外酥內嫩老少皆宜</p>
+            <div class="menu-price">NT$ 120</div>
+          </div>
+        </div>
+        <!-- 擴充菜單品項 -->
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="images/menu.png" alt="更多主菜" />
+          </div>
+          <div class="menu-info">
+            <div class="menu-tag">經典口味</div>
+            <h3>蒜泥白肉飯</h3>
+            <p>清爽五花肉片淋上特製蒜蓉油膏，搭配豐富配菜下飯首選</p>
+            <div class="menu-price">NT$ 120</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="images/hero.png" alt="更多主菜" />
+          </div>
+          <div class="menu-info">
+            <div class="menu-tag">風味料理</div>
+            <h3>宮保雞丁飯</h3>
+            <p>辛香麻辣的宮保風味，滑嫩雞丁與花生拌炒，香氣四溢</p>
+            <div class="menu-price">NT$ 120</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-img-wrap">
+            <img src="images/home.png" alt="更多主菜" />
+          </div>
+          <div class="menu-info">
+            <div class="menu-tag">傳統美味</div>
+            <h3>紅燒獅子頭飯</h3>
+            <p>手工捏製大肉丸燉煮入味，口感綿密，紅燒醬汁完美</p>
+            <div class="menu-price">NT$ 120</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-note">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="12"/>
+          <line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        菜色豐富【配菜 6 種變化，每日不同】，歡迎來電 02-2783-0129 詢問當日特餐
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="brand-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <rect x="3" y="8" width="18" height="13" rx="2"/>
+                <path d="M8 8V5a4 4 0 018 0v3"/>
+                <line x1="12" y1="12" x2="12" y2="17"/>
+              </svg>
+            </div>
+            <span>友怡盒餐</span>
+          </div>
+          <p>台北南港在地推薦，堅持每日現做，<br>為您的健康與營養把關。</p>
+        </div>
+        <div class="footer-links">
+          <h4>快速連結</h4>
+          <ul>
+            <li><a href="about.html">品牌故事</a></li>
+            <li><a href="services.html">服務項目</a></li>
+            <li><a href="menu.html">經典菜單</a></li>
+            <li><a href="contact.html">聯絡外送</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-info">
+          <h4>聯絡資訊</h4>
+          <p>📞 02-2783-0129 ／ 0922-940824</p>
+          <p>⏰ 09:00–14:00 ／ 15:00–18:00</p>
+          <p>📠 傳真 02-2633-5013</p>
+          <p>📍 南港路1段137巷1號</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 友怡盒餐 YouYi Bento. All rights reserved.</p>
+        <p class="footer-est">創立於 1990 年 · 三十年傳承美味</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed-cta" id="fixedCta">
+    <a href="tel:+886227830129" class="fixed-btn">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+      </svg>
+    </a>
+    <div class="fixed-label">立即訂餐</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

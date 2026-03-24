@@ -841,3 +841,11 @@ textarea { resize: vertical; }
   .form-row { grid-template-columns: 1fr; }
   .contact-form-card { padding: 28px; }
 }
+
+/* ===== INNER HERO ===== */
+.inner-hero { padding: 140px 0 60px; background: var(--dark); color: var(--white); text-align: center; }
+.inner-title { font-family: 'Noto Serif TC', serif; font-size: 36px; font-weight: 700; margin-bottom: 12px; }
+.breadcrumb { font-size: 14px; color: rgba(255,255,255,0.6); }
+.breadcrumb a { color: var(--white); transition: var(--transition); }
+.breadcrumb a:hover { color: var(--orange-light); }
+.breadcrumb span { margin: 0 8px; }
